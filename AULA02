@@ -1,0 +1,60 @@
+"""print("qual a sua idade?")
+idade = int(input())
+
+if idade >= 18:
+    print("ACESSO LIBERADO! BOA FESTA!")
+else:
+    print("ACESSO NEGADO! VOÇÊ É MENOR DE IDADE")""" 
+
+# CÓDIGO PARA LIBERAR ACESSO SOMENTE PARA MAIORES DE 19 ANOS 
+"""print("QUAL A SUA IDADE?") 
+idade = int(input())
+if idade < 18:
+    print("ACESSO NEGADO! VOCÊ É MENOR DE IDADE!")
+elif idade == 18:
+    print("VOCÊ ESTÁ QUASE LÁ! MAIS UM ANO E VOCÊ TERÁ ACESSO!")
+else:
+    print("ACESSO LIBERADO! BOA FESTA")
+
+#código para critérios dos alunos
+if media >= 7:
+    print("VOCÊ ESTÁ APROVADO!")
+elif media >= 5:
+    print("VOCÊ ESTÁ EM RECUPERAÇÃO!")
+else:
+    print("INFELIZMENTE VOCÊ FICOU REPROVADO!")"""
+
+    #CÓDIGO PARA VERIFICAR SE PODE PARTICIPAR DO MULHERES TECH
+
+"""print("Qual seu gênero ?(F OU M)")
+gênero = input()
+print(" Qual município você mora? ")
+municipio = input()
+
+if gênero.upper() == "F" and municipio.lower() == "Rio de Janeiro":
+    print("VOCÊ PODE PARTICIPAR DO MULHERES TECH!")
+else:
+    print("VOCÊ NÃO PODE PARTICIPAR DO MULHERES TECH!")"""    
+
+       
+
+#CÓDIGO PARA LIBERAR ACESSO AO FILME PARA MAIORES DE 18 ANOS
+
+print("*" *30 , 'BEM VINDO AO CINEMA SEVERIANO RIBEIRO' , "*" *30)
+print(' ')
+print("Qual a sua idade? ")
+idade = int(input())
+
+if idade >= 18:   
+    print('ACESSO LIBERADO! BOM FILME\nAPROVEITE NOSSOS COMBOS DE PIPOCA COM REFRI DE 1 LITRO')
+elif idade >= 16:
+    print('O FILME SELECIONADO É PAR MAIORES DE 18 ANOS\nPARA ACESSAR PRECISA ESTAR ACOMPANHADO DE UM RESPONSÁVEL.\nVOCÊ ESTA COM SEU RESPONSÁVEL?')
+    responsavel = input().upper()
+    if responsavel =='SIM':
+        print('ACESSO LIBERADO! BOM FILME\nAPROVEITE NOSSOS COMBOS DE PIPOCA COM REFRI DE 1 LITRO')
+    else:
+        print('VOCÊ SÓ PODE VER O FILME ACOMPANHADO DE UM RESPONSÁVEL')
+else:
+    print('ACESSO NEGADO!\nVOCÊ É MENOR DE IDADE')        
+
+
